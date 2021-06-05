@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 
 top = tk.Tk()
 top.geometry('1366x720')
-top.title('Number Plate Recognition BY Group 52')
+top.title('Number Plate Recognition')
 load = Image.open('background.jpg')
 render = ImageTk.PhotoImage(load)
 img = Label(top,image=render)
